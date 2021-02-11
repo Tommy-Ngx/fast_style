@@ -4,7 +4,7 @@
  <title>Change Style</title>
  <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
  <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
-
+ <link rel="stylesheet" type="text/css" href="style.css">
 
  <script src="tf.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -39,10 +39,12 @@ $("input").change(function(e) {
 { font-family:  Raleway, sans-serif; font-size: 30px;}
 </style>
 
+<div id="header" align="center" >Changing Style with GAN</div>
+
 </head>
 
 <body>
-<div id="header" align="center" >Changing Style with GAN</div>
+
 <center> <canvas id="content" width="256" height="256" style="border:1px solid #9ca0a8; border-radius:5%;">
 </canvas> 
 <canvas id="combined" width="256" height="256" style="border:1px solid #9ca0a8; border-radius:5%;">

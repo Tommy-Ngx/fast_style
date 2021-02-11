@@ -1,5 +1,11 @@
 <html>
 <head>
+
+ <title>Change Style</title>
+ <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
+ <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
+
+
  <script src="tf.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <script>
@@ -21,7 +27,7 @@ $("input").change(function(e) {
 </script>
 <style>
 #status
-{ font-family: Geneva, Tahoma, Verdana, sans-serif;}
+{ font-family: Raleway, sans-serif;}
 
 #img
 {border-radius: 5%;}
@@ -30,20 +36,20 @@ $("input").change(function(e) {
 { text-decoration: none; }
 
 #header
-{ font-family:  Verdana, sans-serif; font-size: 30px;}
+{ font-family:  Raleway, sans-serif; font-size: 30px;}
 </style>
 
 </head>
 
 <body>
-<div id="header">Fast Style Transfer </div>
+<div id="header">Changing Style with GAN</div>
 <center> <canvas id="content" width="256" height="256" style="border:1px solid #9ca0a8; border-radius:5%;">
 </canvas> 
 <canvas id="combined" width="256" height="256" style="border:1px solid #9ca0a8; border-radius:5%;">
 </canvas> </center>
 
 <center style="padding:20px">
-<div id ="status">Click Image to load its model </div>
+<div id ="status">Click Image to load its model</div>
 <center>
 <center>
 <div style="padding:20px" style="border:1px solid #000000;">
@@ -156,4 +162,15 @@ initialize()
 </script>
 
 </body>
+
+  <footer>
+      <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+      <h5>Have
+        <span
+           class="txt-rotate"
+           data-period="2000"
+           data-rotate='[ "Fun.", "a break!", "done by Tommy.", "spare time.", "a good day!", "😊 !" ]'></span>
+      </h5>
+  </footer>
+
 </html>

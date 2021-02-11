@@ -1,0 +1,257 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #16A085;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 85%;
+}
+@media screen and (max-width: 320px) {
+  #header {
+  font-size: 75%;
+  }
+}
+
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: center;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: right;
+  margin-left: 10px;
+  
+}
+
+
+
+
+
+
+
+.title {
+  text-align: center
+
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+#tips {
+  color:whitesmoke;
+  font-size: 150%;
+
+}
+
+#container {
+  background: #c79ef812;
+  /* height: 500px; */
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 33px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #image {
+  max-width:  700px;
+  }
+  #canvas {
+  max-width:  700px;
+  }
+  #fileUploader {
+  max-width:  700px;
+  }
+  .result-color{
+  max-width:  700px;
+  }
+
+}
+
+@media screen and (max-width: 1920px) {
+  #image {
+  max-width:  1600px;
+  }
+  #canvas {
+  max-width:  1600px;
+  }
+  #fileUploader {
+  max-width:  1600px;
+  }
+  .result-color{
+  max-width:  1600px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #image {
+  max-width:  1000px;
+  }
+  #canvas {
+  max-width:  1000px;
+  }
+  #fileUploader {
+  max-width:  1000px;
+  }
+  .result-color{
+  max-width:  1000px;
+  }
+}
+
+
+
+@media screen and (max-width: 420px) {
+  #image {
+  max-width:  320px;
+  }
+  #canvas {
+  max-width:  320px;
+  }
+  #fileUploader {
+  max-width:  320px;
+  }
+  .result-color{
+  max-width:  320px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  #image {
+  max-width:  220px;
+  }
+  #canvas {
+  max-width:  220px;
+  }
+  #fileUploader {
+  max-width:  220px;
+  }
+  .result-color{
+  max-width:  220px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #image {
+  max-width:  240px;
+  }
+  #canvas {
+  max-width:  240px;
+  }
+  #fileUploader {
+  max-width:  240px;
+  }
+  .result-color{
+  max-width:  240px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #image {
+  max-width:  180px;
+  }
+  #canvas {
+  max-width:  180px;
+  }
+  #fileUploader {
+  max-width:  180px;
+  }
+  .result-color{
+  max-width:  180px;
+  }
+  a {
+    width: = "5px":
+  }
+}
+
+#text-container {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+#instruction {
+  margin-top: 20px;
+}
+
+.result-color {
+  color: #4e4376;
+}
+
+.green-color {
+  color: #314755;
+}
+
+.highlight {
+  opacity: 0.4;
+  background-color: rgba(161,89,252, 0.2) !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fileUploader {
+  opacity: 0;
+}
+
+#uploader-btn {
+  background: #faebd700;
+  margin-top: 1em;
+  color: white;
+  border: solid 1px #0bcf81;
+  padding: .6em 2em;
+  line-height: 2;
+  font-size: 12px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#uploader-btn:hover {
+  color: black;
+  background-color: #0bcf82;
+  border: solid 1px #0bcf82;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 1em;
+  font-size: 100%;
+  font-weight: bolder;
+  color: black
+}
+
+h5 {
+  font-weight: 100;
+  margin: 0.1em 0;
+}
+h5 { font-size: 2.0em; }

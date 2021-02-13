@@ -24,5 +24,5 @@ This is done using tensorflow.js check the file fast-style.html. Note that I hav
 It containts many custom layers like corpping and upsampling that are yet to be implemented in tf.js. 
 Make sure to use that file. Here is the demo https://tommy-ngx.github.io/fast_style/
 
-![Alt text](screen-shot.png?raw=true "Title")
+![Alt text](Screen-Shot.png?raw=true "Title")
 

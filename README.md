@@ -1,7 +1,7 @@
-# fast_style
+#  Neural Style Transfer
 Using 
 
-> Original link is from 2 repo with link below:
+> Thank for the great sharing. Please find the original link is from 2 repo with link below:
 [repo1](https://github.com/misgod/fast-neural-style-keras) & [repo2](https://github.com/zaidalyafeai/Fast-Style-Transfer-Keras-TF.js)
 
 ## Pre-requisites
